@@ -20,6 +20,8 @@
 		4004BDA217702C3800965EFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4004BDA117702C3800965EFD /* ViewController.m */; };
 		4004BDA91770322000965EFD /* List_bullets.png in Resources */ = {isa = PBXBuildFile; fileRef = 4004BDA81770322000965EFD /* List_bullets.png */; };
 		4004BDAD17703A7200965EFD /* iphone-design-by-morgan-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4004BDAC17703A7200965EFD /* iphone-design-by-morgan-bg.png */; };
+		4004BDB017706B6E00965EFD /* img1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4004BDAE17706B6E00965EFD /* img1.png */; };
+		4004BDB117706B6E00965EFD /* img2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4004BDAF17706B6E00965EFD /* img2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,8 @@
 		4004BDA117702C3800965EFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4004BDA81770322000965EFD /* List_bullets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = List_bullets.png; sourceTree = "<group>"; };
 		4004BDAC17703A7200965EFD /* iphone-design-by-morgan-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone-design-by-morgan-bg.png"; sourceTree = "<group>"; };
+		4004BDAE17706B6E00965EFD /* img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img1.png; sourceTree = "<group>"; };
+		4004BDAF17706B6E00965EFD /* img2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 		4004BD8C17702C3800965EFD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4004BDAE17706B6E00965EFD /* img1.png */,
+				4004BDAF17706B6E00965EFD /* img2.png */,
 				4004BDAC17703A7200965EFD /* iphone-design-by-morgan-bg.png */,
 				4004BDA81770322000965EFD /* List_bullets.png */,
 				4004BD8D17702C3800965EFD /* facebook_style_left_menus-Info.plist */,
@@ -171,6 +177,8 @@
 				4004BD9F17702C3800965EFD /* MainStoryboard.storyboard in Resources */,
 				4004BDA91770322000965EFD /* List_bullets.png in Resources */,
 				4004BDAD17703A7200965EFD /* iphone-design-by-morgan-bg.png in Resources */,
+				4004BDB017706B6E00965EFD /* img1.png in Resources */,
+				4004BDB117706B6E00965EFD /* img2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
