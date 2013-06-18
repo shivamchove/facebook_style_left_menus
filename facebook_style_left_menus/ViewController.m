@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#define MOVERIGHT  255;
+#define SWING 7;
 
 @interface ViewController ()
+
 
 @end
 
@@ -19,7 +22,39 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
-
+-(IBAction)btnListPressed:(id)sender{
+    CGRect destination = mainView.frame;
+    
+    if (destination.origin.x > 0) {
+        destination.origin.x = 0;
+    } else {
+        destination.origin.x += MOVERIGHT;
+    }
+    
+    [UIView animateWithDuration:0.25 animations:^{
+        
+        mainView.frame = destination;
+        
+    } completion:^(BOOL finished) {
+        CGRect destination = mainView.frame;
+        destination.origin.x -= SWING;
+        [UIView animateWithDuration:0.10 animations:^{
+           mainView.frame = destination; 
+        }
+        completion:^(BOOL finished){
+            CGRect destination = mainView.frame;
+            destination.origin.x += SWING;
+            [UIView animateWithDuration:0.10 animations:^{
+                mainView.frame = destination;
+            }
+                             completion:^(BOOL finished){
+                                 // do something
+                             }];
+        }];
+        //mainView.userInteractionEnabled = !(destination.origin.x > 0);
+        
+    }];
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
